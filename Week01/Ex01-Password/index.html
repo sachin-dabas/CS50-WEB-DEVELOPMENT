@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title> Lock prompt </title>
+        <!-- connect to css sheet -->
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <script>
+            var password = prompt("Enter in the password");
+            if (password=="sachin") {
+                location = "test.html"
+            }
+            else if (password=="dabas") {
+                location = "access.html"
+            }
+            else {
+                location = "error.html"
+                document.getElementById("msg").value = "test";  
+            }
+            </script>
+            <!-- <h1> Sachin Dabas </h1>
+            <form class="passform" action="Floatingbubbles.html">
+                Password: <input type="password" required id="sachindabas"> 
+                <input type="submit"> -->
+            <!-- </form>     -->
+    </body>
+</html>

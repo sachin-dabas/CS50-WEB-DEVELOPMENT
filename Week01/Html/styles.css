@@ -1,7 +1,7 @@
-/* h1 {
+h2 {
     color: blue;
     text-align: center;
-} */
+}
 
 /* class type one styling */
 .type1 {
@@ -9,9 +9,8 @@
     text-align: center;
 }
 
-
 /* id type foo styling */
-#foo {
+/* #msg {
     color: red;
     text-align: center;
-}
+} */

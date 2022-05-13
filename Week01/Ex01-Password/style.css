@@ -1,0 +1,25 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+.passform {
+    text-align: center;
+}
+
+/* class type one styling */
+.type1 {
+    color: grey;
+    text-align: center;
+}
+
+/* id type foo styling */
+/* #msg {
+    color: red;
+    text-align: center;
+} */
