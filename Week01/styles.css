@@ -1,4 +1,17 @@
-h1 {
+/* h1 {
     color: blue;
+    text-align: center;
+} */
+
+/* class type one styling */
+.type1 {
+    color: grey;
+    text-align: center;
+}
+
+
+/* id type foo styling */
+#foo {
+    color: red;
     text-align: center;
 }
