@@ -1,10 +1,48 @@
-$color1: red;
-$color2: blue;
-ul {
-    font-size: 14px;
-    color: $color1;
-}
-ol {
-    font-size: 18px;
-    color: $color2;
-}
+// //define colors for the texts
+// $color1: green;
+// $color2: blue;
+
+
+// // styling for the paragraph
+// p {
+//     color: red;
+//     font-size: 32px;
+// }
+
+// // styling for the unordered list
+// ul {
+//     font-size: 28px;
+//     color: $color1;
+//     // text-align: center;
+// }
+
+// // styling for the ordered list
+// ol {
+//     font-size: 28px;
+//     color: $color2;
+//     // text-align: center;
+// }
+
+
+
+//Other-way to do using scss
+div {
+    // styling for the paragraph
+    p {
+        color: blue;
+        font-size: 32px;
+        }
+    // styling for the unordered list
+    ul{
+        font-size: 28px;
+        color: blue;
+        // text-align: center;
+        }
+
+    // styling for the ordered list
+    ol{
+        font-size: 28px;
+        color: blue;
+        // text-align: center;
+        }
+    }
