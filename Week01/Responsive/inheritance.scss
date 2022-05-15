@@ -1,22 +1,28 @@
+// sachindabas
+// inheritance example
+
+// additional property to extend
 %message{
     font-family: arial;
-    // color: red;
     font-size: 18px;
     padding: 20px;
     margin: 20px;
     border: 1px solid black;
 }
 
+// access success class
 .success{
     @extend %message;
     background-color: blue;
 }
 
+// access error class
 .error{
     @extend %message;
     background-color: red;
 }
 
+// access warning class
 .warning{
     @extend %message;
     background-color: yellow;
