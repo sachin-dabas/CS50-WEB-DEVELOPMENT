@@ -1,15 +1,16 @@
+div {
+  font-size: 20px;
+}
+
 div p {
   color: blue;
-  font-size: 32px;
 }
 
 div ul {
-  font-size: 28px;
   color: blue;
 }
 
 div ol {
-  font-size: 28px;
   color: blue;
 }
 /*# sourceMappingURL=variables.css.map */

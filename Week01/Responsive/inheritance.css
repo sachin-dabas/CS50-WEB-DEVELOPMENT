@@ -1,0 +1,20 @@
+.success, .error, .warning {
+  font-family: arial;
+  font-size: 18px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.success {
+  background-color: blue;
+}
+
+.error {
+  background-color: red;
+}
+
+.warning {
+  background-color: yellow;
+}
+/*# sourceMappingURL=inheritance.css.map */

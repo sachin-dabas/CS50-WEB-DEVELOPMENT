@@ -27,21 +27,23 @@
 
 //Other-way to do using scss
 div {
+    //all items inside the div to have this same font size
+    font-size: 20px;
     // styling for the paragraph
     p {
         color: blue;
-        font-size: 32px;
+        // font-size: 32px;
         }
     // styling for the unordered list
     ul{
-        font-size: 28px;
+        // font-size: 28px;
         color: blue;
         // text-align: center;
         }
 
     // styling for the ordered list
     ol{
-        font-size: 28px;
+        // font-size: 28px;
         color: blue;
         // text-align: center;
         }
