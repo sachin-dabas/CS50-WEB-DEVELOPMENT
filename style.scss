@@ -1,0 +1,22 @@
+// sachindabas
+
+// custom fonts
+@fontface{
+  font-family: 'roboto';
+  src: url(Font/Roboto-black.ttf);
+}
+
+// style for the headings
+h1 {
+  text-align: center;
+  font-family: 'roboto', fantasy;
+  font-weight: normal;
+}
+
+// properties for normal text class
+.normal{
+  text-align: center;
+  font-family:'roboto';
+  color: grey;
+  font-weight: lighter;
+}
