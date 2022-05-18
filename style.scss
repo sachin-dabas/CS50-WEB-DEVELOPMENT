@@ -22,11 +22,21 @@ h1{
   font-weight: normal;
 }
 
-// properties for normal text class
-.normal{
-  display: grid;
-  text-align: center;
-  font-family:'roboto';
-  color: grey;
-  font-weight: lighter;
+// properties for normal id
+#normal{
+    padding: 100px;
+    display: grid;
+    text-align: center;
+    font-family:'roboto';
+    color: grey;
+    font-weight: lighter;
 }
+
+// table properties
+table{
+    // display: grid;
+    border: 1px solid grey;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+  }
