@@ -33,10 +33,12 @@ h1{
 }
 
 // table properties
-table{
+table,th,td{
     // display: grid;
+    // background-color: red;
+    //border-spacing: 10px;
     border: 1px solid grey;
     grid-column-gap: 20px;
     grid-row-gap: 10px;
-    grid-template-columns: 200px 200px auto;
+    grid-template-columns: 10px 10px auto;
   }
