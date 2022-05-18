@@ -3,11 +3,20 @@
 // custom fonts
 @fontface{
   font-family: 'roboto';
-  src: url(Font/Roboto-black.ttf);
+  src: url(Font/Roboto/Roboto-black.ttf) format('truetype');
 }
 
+// TODO: why is this font not working?? 
+// custom fonts
+// @fontface{
+//   font-family: 'kelpt';
+//   src: url(Font/Kelpt-Sans/KelptSansB2-Black.ttf) format('truetype');
+//   font-weight: black;
+//   // src: url(Font/Kelpt-Sans/KelptSansB2-Black.otf) format('opentype');
+// }
+
 // style for the headings
-h1 {
+h1{
   text-align: center;
   font-family: 'roboto', fantasy;
   font-weight: normal;
@@ -16,7 +25,7 @@ h1 {
 // properties for normal text class
 .normal{
   text-align: center;
-  font-family:'roboto';
+  font-family:'kelpt';
   color: grey;
   font-weight: lighter;
 }
