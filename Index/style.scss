@@ -1,0 +1,44 @@
+// sachindabas
+
+// custom fonts
+@fontface{
+  font-family: 'roboto';
+  src: url(Font/Roboto/Roboto-black.ttf) format('truetype');
+}
+
+// TODO: why is this font not working??
+// custom fonts
+// @fontface{
+//   font-family: 'kelpt';
+//   src: url(Font/Kelpt-Sans/KelptSansB2-Black.ttf) format('truetype');
+//   font-weight: black;
+//   // src: url(Font/Kelpt-Sans/KelptSansB2-Black.otf) format('opentype');
+// }
+
+// style for the headings
+h1{
+  text-align: center;
+  font-family: 'roboto', fantasy;
+  font-weight: normal;
+}
+
+// properties for normal id
+#normal{
+    padding: 100px;
+    display: grid;
+    text-align: center;
+    font-family:'roboto';
+    color: grey;
+    font-weight: lighter;
+}
+
+// table properties
+table,th,td{
+    // display: grid;
+    // background-color: red;
+    //border-spacing: 10px;
+    border: 1px solid grey;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 10px 10px auto;
+  }

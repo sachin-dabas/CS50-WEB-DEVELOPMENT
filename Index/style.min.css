@@ -1,0 +1,1 @@
+@fontface{font-family:'roboto';src:url(Font/Roboto/Roboto-black.ttf) format("truetype")}h1{text-align:center;font-family:'roboto', fantasy;font-weight:normal}#normal{padding:100px;display:grid;text-align:center;font-family:'roboto';color:grey;font-weight:lighter}table,th,td{border:1px solid grey;grid-column-gap:20px;grid-row-gap:10px;grid-template-columns:10px 10px auto}
