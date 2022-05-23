@@ -1,4 +1,3 @@
-# WEB2.0 + Web3.0 DEVELOPMENT
 Web3 Learning in 100 days
 
 + CS50
