@@ -1,4 +1,5 @@
 <!-- sachindabas -->
+<!-- adopted from cs50 web development course -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,12 +8,13 @@
     <script>
         //function to call an alert with no argument
         function hello() {
-            if (document.querySelector('h1').innerHTML === 'Hello!') {
+            const heading = document.querySelector('h1');
+            if (heading.innerHTML === 'Hello!') {
                 //takes the element and changes its inner properties
-                document.querySelector('h1').innerHTML = 'goodbye!';
+                heading.innerHTML = 'goodbye!';
             }
             else {
-                document.querySelector('h1').innerHTML = 'Hello!';
+                heading.innerHTML = 'Hello!';
                 //added alert
             }
             // alert('Hello World!');
