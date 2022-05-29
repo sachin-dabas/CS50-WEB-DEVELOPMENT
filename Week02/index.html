@@ -7,9 +7,14 @@
     <script>
         //function to call an alert with no argument
         function hello() {
-            //takes the element and changes its inner properties
-            document.querySelector('h1').innerHTML = 'goodbye!';
-            //added alert
+            if (document.querySelector('h1').innerHTML === 'Hello!') {
+                //takes the element and changes its inner properties
+                document.querySelector('h1').innerHTML = 'goodbye!';
+            }
+            else {
+                document.querySelector('h1').innerHTML = 'Hello!';
+                //added alert
+            }
             // alert('Hello World!');
         }
     </script>
