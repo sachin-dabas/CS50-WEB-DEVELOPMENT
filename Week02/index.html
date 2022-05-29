@@ -7,13 +7,15 @@
     <script>
         //function to call an alert with no argument
         function hello() {
+            //takes the element and changes its inner properties
+            document.querySelector('h1').innerHTML = 'goodbye!';
             //added alert
-            alert('Hello World!');
+            // alert('Hello World!');
         }
     </script>
     </head>
     <body>
-            Hello!
+            <h1>Hello!</h1>
     <button onclick="hello()">
         Click Here
     </button>
