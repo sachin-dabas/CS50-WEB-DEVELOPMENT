@@ -13,5 +13,6 @@ function count() {
     if (counter % 10 === 0) {
         alert(`Count is now ${counter}`);
     }
+    //this is changing the count
     document.querySelector('h1').innerHTML = counter;
 }
