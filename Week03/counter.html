@@ -5,9 +5,13 @@
         <title>Hello</title>
         <script>
         function run(){
-                if (document.querySelector("button").innerHTML === "Submit") {
-                    document.querySelector("button").innerHTML = "Hola!";
+                const header = document.querySelector("#buton2");
+                if (header.innerHTML === "Submit") {
+                    header.innerHTML = "Hola!";
                     }
+                else {
+                    header.innerHTML = "Submit";
+                }
             }
         </script>
         <style>
