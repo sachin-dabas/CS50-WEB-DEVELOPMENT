@@ -31,11 +31,29 @@
     <head>
         <meta charset="utf-8">
         <title>Hello</title>
+        <style>
+            .cent_element{
+                display: block;
+                text-align:center;
+                margin: auto;
+            }
+        </style>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                document.querySelector("form").onsubmit = function() {
+                    const name = document.querySelector("#name_id").value;
+                    alert(`Hello, ${name}!`);
+
+                }
+            })
+
+        </script>
     </head>
     <body>
         <h1 style="text-align:center;">Welcome to Seattle</h1>
         <form>
-            <input autofocus id="name_id" placeholder="name" type="text"></input>
+            <input class="cent_element" autofocus id="name_id" placeholder="Enter your Name" type="text"></input>
+            <input class="cent_element" type="submit">
         </form>
     </body>
 </html>
