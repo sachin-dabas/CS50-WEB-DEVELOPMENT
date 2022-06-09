@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script>
+            //change font color to red
+            document.addEventListener('DOMContentLoaded',function()
+            {
+                document.querySelector('#r').onclick = function() {
+                document.querySelector('#helo').style.color = 'red';
+                }
+                //change font color to blue
+                document.querySelector('#b').onclick = function() {
+                document.querySelector('#helo').style.color = 'blue';
+                }
+                //change font color to green
+                document.querySelector('#g').onclick = function() {
+                document.querySelector('#helo').style.color = 'green';
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <h1 id = 'helo'>Hello</h1>
+        <button id="r">Red</button>
+        <button id="b">Blue</button>
+        <button id="g">Green</button>
+    </body>
+</html>
